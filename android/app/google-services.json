@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "327086644589",
+    "project_id": "minimal-we-chat",
+    "storage_bucket": "minimal-we-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327086644589:android:688464ef03f2b3565a8e64",
+        "android_client_info": {
+          "package_name": "com.example.minimal_chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGHNXgHcnVV6wYOJEyJecqKowI-fbQ8cA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
