@@ -9,12 +9,15 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.background,
-        title: Center(
-          child: Text('Home'),
+        backgroundColor: Theme.of(context).colorScheme.surface,
+        title: const Center(
+          child: Padding(
+            padding: EdgeInsets.only(right: 45),
+            child: Text('Home'),
+          ),
         ),
       ),
-      drawer: MyDrawer(),
+      drawer: const MyDrawer(),
     );
   }
 }
